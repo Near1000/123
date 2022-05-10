@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html
+  lang="zh-CN"
+  style="display: flex; flex-direction: column; align-items: center"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>麦田捕手的个人网页</title>
+    <style>
+      .wb {
+        color: rgb(230, 230, 230);
+      }
+
+      p {
+        letter-spacing: 0.5px;
+      }
+
+      img {
+        width: 300px;
+        height: 300px;
+        margin: 5px;
+      }
+
+      #mingzi {
+        font-style: italic;
+      }
+    </style>
+  </head>
+
+  <body style="margin: 0">
+    <toubu
+      style="
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #d7d5d5;
+        margin: 0;
+        padding: 20px;
+      "
+    >
+      <h1>你好,世界</h1>
+      <p>我是<b id="mingzi">麦田捕手</b></p>
+      <p>这是我的个人网页</p>
+      <audio controls="" autoplay="">
+        <source src="shuishou.mp3" type="audio/mpeg" />
+        您的浏览器不支持 audio 元素。
+      </audio>
+    </toubu>
+    <tupian
+      style="
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+
+        margin: 0;
+        padding: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      "
+    >
+      <img src="lufei.jpeg" alt="路飞" />
+      <img src="suolong.jpeg" alt="索隆" />
+      <img src="mingren.jpeg" alt="鸣人" />
+    </tupian>
+    <weibu
+      style="
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #484646;
+        margin: 0;
+        padding: 20px;
+      "
+    >
+      <p class="wb">版权</p>
+      <p class="wb">备案号</p>
+    </weibu>
+  </body>
+</html>
